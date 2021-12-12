@@ -250,7 +250,7 @@ class PlayClass extends Component {
               Questions attempted: {this.state.numberOfAnsweredQuestions}
             </h5> */}
             <h5>Wrong Answered: {this.state.wrongAnswers}</h5>
-            <div className="button-container" style={{ width: "500px" }}>
+            <div className="button-container" style={{ width: "290px" }}>
               <button>
                 <Link to="/" style={{ textDecoration: "none", color: "white" }}>
                   I want to quit
