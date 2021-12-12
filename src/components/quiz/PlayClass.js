@@ -215,7 +215,7 @@ class PlayClass extends Component {
   };
 
   endQuiz = () => {
-    // alert("Quiz has ended! Want to play again?");
+    alert("Quiz has ended! Your score has been recorded.");
     const { state } = this;
     const playerStats = {
       score: state.score,
